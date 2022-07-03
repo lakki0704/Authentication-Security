@@ -45,7 +45,7 @@ app.use(passport.session());
 
 
 //connect to mongo
-mongoose.connect("mongodb://localhost:27017/userDB", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://lakshmi_sathyan:lakshmi07@atlascluster.pybuqci.mongodb.net/userDB", { useNewUrlParser: true });
 
 
 //creating a userSchema
